@@ -10,6 +10,19 @@
 
   <!-- Font Awesome JS -->
   <script defer src="js/fontawesome-all.min.js"></script>
+
+  <style type="text/css">
+    .carousel-indicators {
+      bottom:0;
+    }
+    .carousel-indicators li{
+      background-color: #868e96;
+      cursor: pointer;
+    }
+    .carousel-indicators .active {
+      background-color: #007bff;
+    }
+  </style>
 </head>
 <body class="bg-light">
     <div class="container mt-4">
@@ -123,9 +136,146 @@
                   Accusantium eum eius, at iure! Enim repudiandae earum, amet possimus corporis distinctio?</p>
                 <hr>
               </div>
-              <button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target
+              <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="collapse" data-target
                 ="#collapse-work" aria-expanded="false" aria-controls="collapse-work">Show all</button>
             </div>
+           </div>
+           <div class="card-mb-4">
+            <h2 class="card-header text-center">Education</h2>
+            <div class="card-body">
+              <div class="media mb-2">
+                <i class="fas fa-university fa-fw fa-3x text-primary mr-2"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">PhD in Software Engineering</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
+                    <h5 class="mb-0"><a href="#0">Stanford University</a></h5> <small class="d-block text-uppercase
+                      font-weight-bold text-muted"><time datetime="2017-01">January 2017</time> &ndash;
+                    <time datetime="2017-12">Decembar 2017</time></small>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusantium eum eius, at iure! Enim repudiandae earum, amet possimus corporis distinctio?</p>
+              <hr>
+              <div class="media mb-2">
+                <i class="fas fa-university fa-fw fa-3x text-primary mr-2"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Master in Interaction Design</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
+                    <h5 class="mb-0"><a href="#0">Harvard University</a></h5> <small class="d-block text-uppercase
+                      font-weight-bold text-muted"><time datetime="2017-01">January 2017</time> &ndash;
+                    <time datetime="2017-12">Decembar 2017</time></small>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusantium eum eius, at iure! Enim repudiandae earum, amet possimus corporis distinctio?</p>
+              <hr>
+              <div class="media mb-2">
+                <i class="fas fa-university fa-fw fa-3x text-primary mr-2"></i>
+                <div class="media-body">
+                  <h3 class="h4 mb-1">Bachelor in Digital Culture</h3>
+                  <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
+                    <h5 class="mb-0"><a href="#0">Berkeley University</a></h5> <small class="d-block text-uppercase
+                      font-weight-bold text-muted"><time datetime="2017-01">January 2017</time> &ndash;
+                    <time datetime="2017-12">Decembar 2017</time></small>
+                  </div>
+                </div>
+              </div>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusantium eum eius, at iure! Enim repudiandae earum, amet possimus corporis distinctio?</p>
+              <hr>
+              <div class="collapse" id="collapse-education">
+                  <div class="media mb-2">
+                    <i class="fas fa-graduation-cap fa-fw fa-3x text-primary mr-2"></i>
+                    <div class="media-body">
+                      <h3 class="h4 mb-1">Information Technology</h3>
+                      <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
+                        <h5 class="mb-0"><a href="#0">New York College</a></h5> <small class="d-block text-uppercase
+                          font-weight-bold text-muted"><time datetime="2017-01">January 2017</time> &ndash;
+                        <time datetime="2017-12">Decembar 2017</time></small>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium eum eius, at iure! Enim repudiandae earum, amet possimus corporis distinctio?</p>
+                  <hr>
+                  <div class="media mb-2">
+                    <i class="fas fa-graduation-cap fa-fw fa-3x text-primary mr-2"></i>
+                    <div class="media-body">
+                      <h3 class="h4 mb-1">Science and Technology</h3>
+                      <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
+                        <h5 class="mb-0"><a href="#0">New York High School</a></h5> <small class="d-block text-uppercase
+                          font-weight-bold text-muted"><time datetime="2017-01">January 2017</time> &ndash;
+                        <time datetime="2017-12">Decembar 2017</time></small>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium eum eius, at iure! Enim repudiandae earum, amet possimus corporis distinctio?</p>
+                  <hr>
+              </div>
+              <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="collapse" data-target
+                ="#collapse-education" aria-expanded="false" aria-controls="collapse-education">Show all</button>
+            </div>
+           </div>
+           <div class="card mb-4">
+             <h2 class="card-header text-center">Testimonials</h2>
+             <div class="card-body">
+               <div class="carousel slide" id="carousel" data-ride="false">
+                 <ol class="carousel-indicators mb-0">
+                   <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                   <li data-target="#carousel" data-slide-to="1"></li>
+                   <li data-target="#carousel" data-slide-to="2"></li>
+                   <li data-target="#carousel" data-slide-to="3"></li>
+                   <li data-target="#carousel" data-slide-to="4"></li>
+                 </ol>
+                 <div class="carousel-inner">
+                   <div class="carousel-item active">
+                     <blockquote class="blockquote text-center d-flex flex-column justify-content-center">
+                       <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                       Quia itaque corporis quidem vel accusantium odit at tempore quod, modi aliquam.</p>
+                       <footer class="blockquote-footer">Firstname Lastname</footer>
+                     </blockquote>
+                   </div>
+                   <div class="carousel-item">
+                     <blockquote class="blockquote text-center d-flex flex-column justify-content-center">
+                       <p class="mb-0">Quia itaque corporis quidem vel accusantium odit at tempore quod, modi aliquam.
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.Quia itaque corporis quidem vel
+                         accusantium odit at tempore quod, modi aliquam.</p>
+                       <footer class="blockquote-footer">Firstname Lastname</footer>
+                     </blockquote>
+                   </div>
+                   <div class="carousel-item">
+                     <blockquote class="blockquote text-center d-flex flex-column justify-content-center">
+                       <p class="mb-0">Dakihem itaque corporis quidem vel accusantium odit at tempore quod, modi aliquam.
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.Quia itaque corporis quidem vel
+                         accusantium odit at tempore quod, modi aliquam.Corporis quidem vel accusantium odit at tempore
+                        quod, modi aliquam.</p>
+                       <footer class="blockquote-footer">Firstname Lastname</footer>
+                     </blockquote>
+                   </div>
+                   <div class="carousel-item">
+                     <blockquote class="blockquote text-center d-flex flex-column justify-content-center">
+                       <p class="mb-0">Maccusantium akihem itaque corporis quidem vel odit at tempore quod, modi aliquam.
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.Quia itaque corporis quidem vel
+                         accusantium odit at tempore quod, modi aliquam.Corporis quidem vel accusantium odit at tempore
+                        quod, modi aliquam.</p>
+                       <footer class="blockquote-footer">Firstname Lastname</footer>
+                     </blockquote>
+                   </div>
+                   <div class="carousel-item">
+                     <blockquote class="blockquote text-center d-flex flex-column justify-content-center">
+                       <p class="mb-0">Kojiomi paccusantium akihem itaque corporis quidem vel odit at tempore quod, modi aliquam.
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.Quia itaque corporis quidem vel
+                         accusantium odit at tempore quod, modi aliquam.Corporis quidem vel accusantium odit at tempore
+                        quod, modi aliquam.</p>
+                       <footer class="blockquote-footer">Firstname Lastname</footer>
+                     </blockquote>
+                   </div>
+                 </div>
+               </div>
+             </div>
            </div>
          </div>
         <div class="col-12 col-lg-4">
